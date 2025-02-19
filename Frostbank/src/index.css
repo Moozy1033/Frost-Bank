@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+/* section{
+  padding: 60px 80px;
+  padding-top: 60px;
+  height: 100vh;
+} */
+section{
+  height: 100vh;
+  padding-top: 60px;
+  padding-left: 68px;
+  padding-right: 68px;
+}
+.error-d {
+  color: red;
+  font-size: 14px;
+  display: none;
+}
+.otpsection{
+  height: 100vh;
+  /* background-color: #F7F8FA; */
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* For Chrome, Safari, Edge */
+    margin: 0;
+}
+.form{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important ;
+  border: 1px solid black !important;
+}
+.form:focus{
+  border: 2px solid #1F96FF !important;
+}
+.logbtn{
+  background-color: #003057;
+  color: white;
+  border: none;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 18px;
+}
+.logbtn2{
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 18px;
+}
+.Further{
+  padding-top: 60px;
+  /* padding-bottom: 60px; */
+  font-weight: 700;
+}
+.Our{
+  font-size: 17px;
+  padding-bottom: 75px;
+}
+
+@media screen and (max-width:478px) {
+  section{
+    height: 100vh;
+    padding-top: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .sm-w{
+    width: 100%;
+  }
+}
