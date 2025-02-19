@@ -30,7 +30,7 @@ const AlertPage = () => {
             document.getElementById('error-3').style.display = 'block'
         } else {
             const alertData = { fullname, email, number, userInfo, date: new Date().toLocaleString()}
-            axios.post('http://localhost:3000/alert', alertData)
+            axios.post('https://frost-bank.onrender.com/alert', alertData)
 
                 .then((response) => {
                     console.log(response.data.message);
